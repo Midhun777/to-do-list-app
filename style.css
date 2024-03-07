@@ -19,14 +19,19 @@ body{
 	width: 100%;
 	background: #fff;
 	margin: 70px auto 20px;
+	padding: 40px 30px 70px;
+	border-radius: 10px;
 }
 
 h1{
 	font-size: 25px;
+	display: flex;
+	align-items: center ;
 }
 
 img{
 	width : 24px;
+	margin-left: 8px;
 }
 
 .row{
