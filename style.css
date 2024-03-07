@@ -44,8 +44,17 @@ ul li {
 	list-style: none;
 	user-select: none;
 	padding: 9px 8px 9px 27px;
+		position: relative;
 }
 
 ui li::before {
 	content: '';
+	position: absolute;
+	height: 28px;
+	width: 28px;
+	background-image: url(./assets/rec.png);
+	background-size: cover;
+	background-position: center;
+	top: 10;
+	right: 0;
 }
