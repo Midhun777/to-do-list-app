@@ -43,4 +43,5 @@ img{
 ul li{
 	list-style: none;
 	user-select: none;
+	padding: 9px 8px 9px 27px;
 }
