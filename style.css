@@ -1,21 +1,21 @@
-*{
+* {
 	margin: 0px;
 	padding: 0px;
 	font-family: sans-serif;
 	box-sizing: border-box;
 }
 
-body{
+body {
 	background: #9DABB4;
 }
 
-.container{
-	width : 100%;
+.container {
+	width: 100%;
 	min-height: 100vh;
 	padding: 10px;
 }
 
-.todo-app{
+.todo-app {
 	width: 100%;
 	background: #fff;
 	margin: 70px auto 20px;
@@ -23,25 +23,29 @@ body{
 	border-radius: 10px;
 }
 
-h1{
+h1 {
 	font-size: 25px;
 	display: flex;
-	align-items: center ;
+	align-items: center;
 }
 
-img{
-	width : 24px;
+img {
+	width: 24px;
 	margin-left: 8px;
 }
 
-.row{
+.row {
 	display: flex;
-	align-items: center ;
+	align-items: center;
 	justify-content: space-between;
 }
 
-ul li{
+ul li {
 	list-style: none;
 	user-select: none;
 	padding: 9px 8px 9px 27px;
+}
+
+ui li::before {
+	content: '';
 }
