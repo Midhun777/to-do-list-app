@@ -1,0 +1,16 @@
+body {
+    font-size: 15pt;
+}
+
+h1{
+	font-size: 25px;
+}
+
+img{
+	width : 24px;
+}
+
+ul li{
+	list-style: none;
+	user-select: none;
+}
