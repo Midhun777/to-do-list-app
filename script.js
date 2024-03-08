@@ -9,6 +9,15 @@ function addTask() {
 		let li = document.createElement('li');
 		li.innerHTML = textBox.value;
 		listContainer.appendChild(li);
+		let span = document.createElement('span');
+		span.innerHTML = "×";
+		li.appendChild(span);
 	}
 	textBox.value = "";
 }
+
+document.addEventListener('keypress', function(event) {
+	if (event.key === 'Enter') {
+		addTask()
+	}
+});
