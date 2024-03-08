@@ -21,3 +21,13 @@ document.addEventListener('keypress', function(event) {
 		addTask()
 	}
 });
+
+
+textBox.value = "test ";
+addTask();
+
+listContainer.addEventListener('click', function(e) {
+	if (e.target.tagName === "LI") {
+		e.target.classList.toggle('checked');
+	}
+}, false)
