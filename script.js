@@ -1,3 +1,5 @@
+/*
+
 var containerDiv = document.createElement('div');
 containerDiv.className = 'container';
 
@@ -38,6 +40,8 @@ todoAppDiv.appendChild(listUl);
 containerDiv.appendChild(todoAppDiv);
 
 document.body.appendChild(containerDiv);
+
+*/
 
 const textBox = document.getElementById('textBox');
 const listContainer = document.getElementById('listContainer');

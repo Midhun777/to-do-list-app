@@ -28,11 +28,33 @@ h1 {
 	font-size: 25px;
 	display: flex;
 	align-items: center;
+	margin-bottom: 7px;
 }
 
 img {
 	width: 24px;
 	margin-left: 8px;
+}
+
+input{
+	height:30px; 
+	width : 205px;
+	border: 1px solid #0C4D63;
+	border-radius: 4.5px;
+	padding: 6px;
+	box-shadow: rgba(0, 0, 0, 0.24) 1px 2px 3px;
+}
+
+button{
+	height:30px;
+	width : 60px;
+	border: 1px solid #005655;
+	border-radius: 4.5px;
+	background: #B37B56;
+	color: #FFF0D3;
+	font-weight: 700;
+		box-shadow: rgba(0, 0, 0, 0.24) 1px 2px 3px;
+
 }
 
 .row {
@@ -46,6 +68,9 @@ ul li {
 	user-select: none;
 	padding: 9px 8px 9px 27px;
 	position: relative;
+	font-size: 17px;
+	font-weight: 500;
+color:#3D455C;
 }
 
 ul li::before {
@@ -80,3 +105,4 @@ ul li span {
 	height: 40px;
 	line-height: 40px;
 }
+
