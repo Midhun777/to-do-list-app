@@ -6,7 +6,8 @@
 }
 
 body {
-	background: #9DABB4;
+	background: #DDE3E3;
+	color:#3D455C;
 }
 
 .container {
@@ -17,7 +18,7 @@ body {
 
 .todo-app {
 	width: 100%;
-	background: #fff;
+	background: #9AACB8;
 	margin: 70px auto 20px;
 	padding: 40px 30px 70px;
 	border-radius: 10px;
