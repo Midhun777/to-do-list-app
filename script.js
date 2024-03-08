@@ -1,3 +1,44 @@
+var containerDiv = document.createElement('div');
+containerDiv.className = 'container';
+
+var todoAppDiv = document.createElement('div');
+todoAppDiv.className = 'todo-app';
+
+var heading = document.createElement('h1');
+heading.textContent = 'To-Do List';
+
+var img = document.createElement('img');
+img.src = './assets/check-list.png';
+img.alt = 'check-list.png';
+
+heading.appendChild(img);
+
+var rowDiv = document.createElement('div');
+rowDiv.className = 'row';
+
+var input = document.createElement('input');
+input.type = 'text';
+input.id = 'textBox';
+
+var button = document.createElement('button');
+button.type = 'submit';
+button.textContent = 'Add';
+button.onclick = addTask;
+
+rowDiv.appendChild(input);
+rowDiv.appendChild(button);
+
+var listUl = document.createElement('ul');
+listUl.id = 'listContainer';
+
+todoAppDiv.appendChild(heading);
+todoAppDiv.appendChild(rowDiv);
+todoAppDiv.appendChild(listUl);
+
+containerDiv.appendChild(todoAppDiv);
+
+document.body.appendChild(containerDiv);
+
 const textBox = document.getElementById('textBox');
 const listContainer = document.getElementById('listContainer');
 
