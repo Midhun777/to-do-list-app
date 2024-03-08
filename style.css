@@ -48,19 +48,18 @@ input {
 	border: 1px solid #0C4D63;
 	border-radius: 4.5px;
 	padding: 6px;
-	box-shadow: rgba(0, 0, 0, 0.24) 1px 2px 3px;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 3px;
 }
 
 button {
 	height: 30px;
 	width: 60px;
-	border: 1px solid #005655;
+	border: 1px solid #0C4D63;
 	border-radius: 4.5px;
 	background: #B37B56;
 	color: #FFF0D3;
 	font-weight: 700;
 	box-shadow: rgba(0, 0, 0, 0.24) 1px 2px 3px;
-
 }
 
 .row {
@@ -108,9 +107,10 @@ ul li span {
 	position: absolute;
 	top: 0;
 	right: 0;
-	font-size: 18px;
+	font-size: 20px;
 	color: #555;
 	width: 40px;
 	height: 40px;
 	line-height: 40px;
 }
+
