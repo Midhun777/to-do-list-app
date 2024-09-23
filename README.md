@@ -7,7 +7,6 @@ A simple and intuitive To-Do List application built using HTML, CSS, and JavaScr
 - Add new tasks
 - Mark tasks as completed
 - Delete tasks
-- 
 ## Live Demo
 
 Check out the live demo of the app [here](https://midhun777.github.io/to-do-list-app/).
